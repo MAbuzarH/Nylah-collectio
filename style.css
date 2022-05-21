@@ -1,0 +1,166 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-size: 22px;
+    font-family: sans-serif,"open sans";
+}
+.navbar{
+    background-color: rgb(252, 252, 253);
+    display: flex;
+    /* position: fixed; */
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.stak{
+background-color: black;
+height: 5px;
+width: 30px;
+margin: 4px;
+position: relative;
+
+}
+.big{
+    padding-top: 15px ;
+    padding-left: 30px;
+padding-bottom: 15px;
+padding-right: 40px;
+}
+.hi{
+    padding:25px 38% ;
+}
+.bag{
+    padding: 15px ;
+}
+.mySlides {display: none;
+}
+.mySlides img{
+    width: 100%;
+}
+img {vertical-align: middle;}
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: rgb(225, 45, 45);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    position: relative;
+    
+  }
+  
+  .active, .dot:hover {
+    background-color: #151313;
+  }
+.d-box{
+    position: absolute;
+    top: 800px;
+    left: 1100px;
+}
+.vi iframe{
+    width: 100%;
+    padding-top: 10px;
+}
+.main{
+    display: flex;
+width: 100%;
+}
+.hea{
+    text-align: center;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.main img{
+    width: 260px;
+    margin: 60px 35px;
+}
+.sec4{
+    padding-left: 15px;
+}
+.main2 p{
+    text-align: center;
+    font-size: 16px;
+   margin-bottom: 30px;
+    margin-top: 20px;
+    margin-left: 25px;
+
+}
+.main2{
+margin-bottom: 0px;
+display: flex;
+width: 100%;
+}
+.main2 img{
+    width: 80%;
+  margin-left: 33px;
+  margin-top: 30px;
+
+}
+.foot{
+    background-color: rgba(241, 43, 13, 0.33);
+    display: flex;
+
+}
+ h4{
+font-size: 18px;
+padding: 40px 20px;
+margin: 40px 30px;
+text-align: center;
+}
+.f1{
+width: 50%;
+}
+.f1 p{
+    font-size: 13px;
+    margin-top: 10px;
+    margin-left: 30%;
+    word-spacing: 4px;
+line-height: 20px;
+}
+.f1 input{
+    margin-top: 50px;
+    margin-left: 30%;
+background-color: transparent;
+border: none;
+}
+.f1 button{
+    margin-top: 50px;
+    margin-left: 30%;
+background-color: transparent;
+border: none;
+color: #f2f2f2;
+margin-bottom: 200px;
+padding: 20px 23px;
+}
+button:hover{
+    background-color: #f2f2f2;
+    color: #151313;
+}
+.f2 div a{
+  text-decoration: none;
+    margin-top: 50px;
+    margin-left: 30%;
+font-size: 20px;
+margin-bottom: 300px;
+color: #f2f2f2;
+}
